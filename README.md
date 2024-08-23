@@ -16,7 +16,7 @@ At the same time, I'm working in a new version that you can discover more best p
 - Unit tests
 
 You can see the following repo where these implementations can be found. However, it can be in done in the next days.
-
+https://github.com/JU1N-CPA/backend_planet_v2.git
 
 
 ## Installation and Setup
