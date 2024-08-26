@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .serializers import PlanetSerializer
 from .models import Planet
-from rest_framework.generics import CreateAPIView
+from rest_framework.generics import CreateAPIView,UpdateAPIView
 from rest_framework import generics
 from rest_framework.exceptions import NotFound
 
@@ -114,6 +114,20 @@ class DeletePlanetView(generics.DestroyAPIView):
 
     parameters:
     generics.DestroyAPIView class to delete a basic record
+
+    Raises:
+    Not implemented
+    '''
+    queryset = Planet.objects.all()
+    serializer_class = PlanetSerializer
+    lookup_field = 'name'
+
+class UpdatePlanetView(UpdateAPIView):
+    '''
+    PUT: Update an existing planet
+
+    parameters:
+    UpdateAPIView class to update a basic record
 
     Raises:
     Not implemented
