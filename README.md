@@ -46,11 +46,11 @@ On macOS/Linux:
 source env/bin/activate
 ```
 
-### 3. Install Django and Django REST Framework
-Install Django and Django REST framework using pip:
+### 3. Install dependencies
+Install requirements.txt
 
 ```
-pip install django djangorestframework
+pip install -r requirements.txt
 ```
 
 ### 4. Run Migrations
