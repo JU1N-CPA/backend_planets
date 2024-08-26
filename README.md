@@ -64,7 +64,7 @@ python manage.py migrate
 ### 5. Open and Interact with the SQLite Database
 To open and interact with the SQLite database, use the following command:
 ```
-sqlite3 /home/juanlinux/repos/persnalProjects/back-basic-planets/core/db.sqlite3
+sqlite3 /home/{personal_folder}/repos/persnalProjects/back-basic-planets/core/db.sqlite3
 ```
 Commands to Use in SQLite
 
