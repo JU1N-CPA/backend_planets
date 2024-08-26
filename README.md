@@ -9,7 +9,7 @@ At the same time, I'm working in a new version that you can discover more best p
 - insert error handlers to the views
 - double records added handler
 - Improve serializers
-- split the views, serializer,views in different folders
+- split the views, serializer,model in different folders
 - create docker for easy deploy
 - implementation of nginx for proxy configurations
 - implementation of jwt for proctected views
@@ -124,10 +124,9 @@ python manage.py runserver
 You can then access the API at http://localhost:8000/.
 
 ## Summary
-Install Python
-Create and activate a virtual environment
-Install Django and Django REST framework
-Run migrations to set up the database
-Interact with the SQLite database using sqlite3
-Create, update, and delete records using API endpoints
-For more information, refer to the Django documentation and Django REST framework documentation.
+- Install Python
+- Create and activate a virtual environment
+- Install Django and Django REST framework
+- Run migrations to set up the database
+- Interact with the SQLite database using sqlite3
+- Create, update, and delete records using API endpoints
