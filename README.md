@@ -100,7 +100,7 @@ curl -X POST http://localhost:8000/api/planets/create/ -H "Content-Type: applica
 Send a PUT request to update an existing planet record. Example using curl:
 
 ```
-curl -X PUT http://localhost:8000/api/planets/<str:name>/ -H "Content-Type: application/json" -d '{"population": 654321, "terrains": "desert", "climates": "arid"}'
+curl -X PUT http://localhost:8000/api/update/<str:name>/ -H "Content-Type: application/json" -d '{"population": 654321, "terrains": "desert", "climates": "arid"}'
 ```
 
 Replace <str:name> with the name of the planet you want to update.
